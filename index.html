@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jam Dunia</title>
+
+<script>
+    window.setTimeout("waktu7()",1000);
+    function waktu7() {
+        var tanggal7 = new Date();
+        var jam7 = tanggal7.getHours();
+        var menit7 = tanggal7.getMinutes();
+        var detik7 = tanggal7.getSeconds();
+        setTimeout("waktu7()",1000);
+        document.getElementById("gmt7").innerHTML = jam7 + " : " + menit7 + " : " + detik7 + " * GMT+7 Jakarta, Indonesia";
+    }
+
+    window.setTimeout("waktu6()",1000);
+    function waktu6() {
+        var tanggal6 = new Date();
+        tanggal6.setHours(tanggal6.getHours() - 1);
+        tanggal6.setMinutes(tanggal6.getMinutes() - 1);
+        tanggal6.setSeconds(tanggal6.getSeconds() - 1);
+        var jam6 = tanggal6.getHours();
+        var menit6 = tanggal6.getMinutes();
+        var detik6 = tanggal6.getSeconds();
+        setTimeout("waktu6()",1000);
+        document.getElementById("gmt6").innerHTML = jam6 + " : " + menit6 + " : " + detik6 + " * GMT+6 Astana, Kazakhstan";
+    }
+
+    window.setTimeout("waktu5()",1000);
+    function waktu5() {
+        var tanggal5 = new Date();
+        tanggal5.setHours(tanggal5.getHours() - 2);
+        tanggal5.setMinutes(tanggal5.getMinutes() - 2);
+        tanggal5.setSeconds(tanggal5.getSeconds() - 2);
+        var jam5 = tanggal5.getHours();
+        var menit5 = tanggal5.getMinutes();
+        var detik5 = tanggal5.getSeconds();
+        setTimeout("waktu5()",1000);
+        document.getElementById("gmt5").innerHTML = jam5 + " : " + menit5 + " : " + detik5 + " * GMT+5 Islamabad, Pakistan";
+    }
+
+
+    window.setTimeout("waktu4()",1000);
+    function waktu4() {
+        var tanggal4 = new Date();
+        tanggal4.setHours(tanggal4.getHours() - 3);
+        tanggal4.setMinutes(tanggal4.getMinutes() - 3);
+        tanggal4.setSeconds(tanggal4.getSeconds() - 3);
+        var jam4 = tanggal4.getHours();
+        var menit4 = tanggal4.getMinutes();
+        var detik4 = tanggal4.getSeconds();
+        setTimeout("waktu4()",1000);
+        document.getElementById("gmt4").innerHTML = jam4 + " : " + menit4 + " : " + detik4 + " * GMT+4 Abu Dhabi, UEA";
+    }
+
+    window.setTimeout("waktu3()",1000);
+    function waktu3() {
+        var tanggal3 = new Date();
+        tanggal3.setHours(tanggal3.getHours() - 4);
+        tanggal3.setMinutes(tanggal3.getMinutes() - 4);
+        tanggal3.setSeconds(tanggal3.getSeconds() - 4);
+        var jam3 = tanggal3.getHours();
+        var menit3 = tanggal3.getMinutes();
+        var detik3 = tanggal3.getSeconds();
+        setTimeout("waktu3()",1000);
+        document.getElementById("gmt3").innerHTML = jam3 + " : " + menit3 + " : " + detik3 + " * GMT+3 Moskow, Rusia";
+    }
+
+    window.setTimeout("waktu2()",1000);
+    function waktu2() {
+        var tanggal2 = new Date();
+        tanggal2.setHours(tanggal2.getHours() - 5);
+        tanggal2.setMinutes(tanggal2.getMinutes() - 5);
+        tanggal2.setSeconds(tanggal2.getSeconds() - 5);
+        var jam2 = tanggal2.getHours();
+        var menit2 = tanggal2.getMinutes();
+        var detik2 = tanggal2.getSeconds();
+        setTimeout("waktu2()",1000);
+        document.getElementById("gmt2").innerHTML = jam2 + " : " + menit2 + " : " + detik2 + " * GMT+2 Istanbul, Turki";
+    }
+
+    window.setTimeout("waktu1()",1000);
+    function waktu1() {
+        var tanggal1 = new Date();
+        tanggal1.setHours(tanggal1.getHours() - 6);
+        tanggal1.setMinutes(tanggal1.getMinutes() - 6);
+        tanggal1.setSeconds(tanggal1.getSeconds() - 6);
+        var jam1 = tanggal1.getHours();
+        var menit1 = tanggal1.getMinutes();
+        var detik1 = tanggal1.getSeconds();
+        setTimeout("waktu1()",1000);
+        document.getElementById("gmt1").innerHTML = jam1 + " : " + menit1 + " : " + detik1 + " * GMT+1 Paris, Perancis";
+    }
+
+    window.setTimeout("waktu0()",1000);
+    function waktu0() {
+        var tanggal0 = new Date();
+        tanggal0.setHours(tanggal0.getHours() - 7);
+        tanggal0.setMinutes(tanggal0.getMinutes() - 7);
+        tanggal0.setSeconds(tanggal0.getSeconds() - 7);
+        var jam0 = tanggal0.getHours();
+        var menit0 = tanggal0.getMinutes();
+        var detik0 = tanggal0.getSeconds();
+        setTimeout("waktu0()",1000);
+        document.getElementById("gmt0").innerHTML = jam0 + " : " + menit0 + " : " + detik0 + " * GMT+0 London, Inggris";
+    }
+
+    window.setTimeout("waktu8()",1000);
+    function waktu8() {
+        var tanggal8 = new Date();
+        tanggal8.setHours(tanggal8.getHours() + 1);
+        tanggal8.setMinutes(tanggal8.getMinutes() + 1);
+        tanggal8.setSeconds(tanggal8.getSeconds() + 1);
+        var jam8 = tanggal8.getHours();
+        var menit8 = tanggal8.getMinutes();
+        var detik8 = tanggal8.getSeconds();
+        setTimeout("waktu8()",1000);
+        document.getElementById("gmt8").innerHTML = jam8 + " : " + menit8 + " : " + detik8 + " * GMT+8 Beijing, China";
+    }
+
+    window.setTimeout("waktu9()",1000);
+    function waktu9() {
+        var tanggal9 = new Date();
+        tanggal9.setHours(tanggal9.getHours() + 2);
+        tanggal9.setMinutes(tanggal9.getMinutes() + 2);
+        tanggal9.setSeconds(tanggal9.getSeconds() + 2);
+        var jam9 = tanggal9.getHours();
+        var menit9 = tanggal9.getMinutes();
+        var detik9 = tanggal9.getSeconds();
+        setTimeout("waktu9()",1000);
+        document.getElementById("gmt9").innerHTML = jam9 + " : " + menit9 + " : " + detik9 + " * GMT+9 Tokyo, Jepang";
+    }
+
+
+</script>
+<center>
+<h1>Jam Dunia</h1>
+
+</head>
+<body>
+    <div id="jam dunia"> 
+    <p onLoad="waktu0()" id="gmt0"></p>
+    <p onLoad="waktu1()" id="gmt1"></p>
+    <p onLoad="waktu2()" id="gmt2"></p>
+    <p onLoad="waktu3()" id="gmt3"></p>
+    <p onLoad="waktu4()" id="gmt4"></p>
+    <p onLoad="waktu5()" id="gmt5"></p>
+    <p onLoad="waktu6()" id="gmt6"></p>
+    <p onLoad="waktu7()" id="gmt7"></p>
+    <p onLoad="waktu8()" id="gmt8"></p>
+    <p onLoad="waktu9()" id="gmt9"></p>
+    </div>
+</center>
+
+
+</body>
+</html>
